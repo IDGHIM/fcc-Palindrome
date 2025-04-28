@@ -1,6 +1,6 @@
 # fcc-Palindrome ( 🌐 version ) 
 
-🔗 **Live Website**: []()
+🔗 **Live Website**: [https://idghim.github.io/fcc-Palindrome/](https://idghim.github.io/fcc-Palindrome/)
 
 > ✨ *In this project, I made some custom modifications to the original instructions to achieve a design that reflects my personal style and preferences.*
 
