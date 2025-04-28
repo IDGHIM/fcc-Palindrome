@@ -31,7 +31,7 @@ The goal of this project is to build a **palindrome page** as part of the **Java
 
 > ⚠️ **Important**: Be sure to include this line in your HTML to link your CSS & JS file:  
 > `<link rel="stylesheet" href="styles.css">`
-> `<script></script>`
+> `<script src="script.js"></script>`
 
 ---
 
