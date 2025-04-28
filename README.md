@@ -54,7 +54,7 @@ The goal of this project is to build a **palindrome page** as part of the **Java
 
 ## 🖼️ Project Context
 
-This is one of the required projects to earn the **Javascript Algorithms And Data Structures ** from freeCodeCamp.  
+This is one of the required projects to earn the **Javascript Algorithms And Data Structures** from freeCodeCamp.  
 Through this challenge, I learned how to:
 
 -  
