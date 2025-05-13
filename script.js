@@ -12,7 +12,8 @@ function isPalindrome(text) {
   return cleaned === reversed;
 }
 
-button.addEventListener('click', () => {
+// Fonction pour gérer la validation du texte (clic du bouton ou appui sur Entrée)
+function validatePalindrome() {
   const text = input.value.trim();
 
   if (text === '') {
@@ -24,5 +25,15 @@ button.addEventListener('click', () => {
     result.textContent = `"${text}" est un palindrome.`;
   } else {
     result.textContent = `"${text}" n'est pas un palindrome.`;
+  }
+}
+
+// Événement de clic sur le bouton
+button.addEventListener('click', validatePalindrome);
+
+// Événement d'appui sur la touche Entrée
+input.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    validatePalindrome();
   }
 });
