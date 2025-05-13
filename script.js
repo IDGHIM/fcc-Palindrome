@@ -16,6 +16,12 @@ function isPalindrome(text) {
 function validatePalindrome() {
   const text = input.value.trim();
 
+  // Vérifie si la chaîne contient au moins une lettre
+  if (!/[a-zA-Z]/.test(text)) {
+    alert('Veuillez entrer une chaîne contenant au moins une lettre.');
+    return;
+  }
+
   if (text === '') {
     alert('Please input a value');
     return;
