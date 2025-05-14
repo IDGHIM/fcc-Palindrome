@@ -8,6 +8,7 @@ function isPalindrome(text) {
     .normalize("NFD")                     // Décompose les caractères accentués
     .replace(/[\u0300-\u036f]/g, '')      // Supprime les diacritiques (accents, cédilles)
     .replace(/[^a-z0-9]/gi, '');          // Garde uniquement les lettres et chiffres
+  if (cleaned.length < 2) return false;    // Vérifie que ce n'est pas une seule lettre
   const reversed = cleaned.split('').reverse().join('');
   return cleaned === reversed;
 }
